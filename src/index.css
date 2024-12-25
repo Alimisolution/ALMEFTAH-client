@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+body {
+  background-color: #f6f6f6;
+  /* background-color: #6161fd63; */
+  /* margin-bottom: 900px; */
+  /* padding:0 80px ; */
+  /* font-family: Plus Jakarta Sans; */
+  /* padding-bottom: 20px; */
+}
+html,
+body {
+  height: auto; /* Let them grow as per content */
+}
+
+body {
+  margin: 0; /* Remove default margin */
+}
+.hide-scrollbar {
+  overflow: hidden;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.custom-gradient {
+  background: linear-gradient(
+    223deg,
+    #4bdcd5 -4.34%,
+    #1eafca 34.8%,
+    #0a62cc 93.75%
+  );
+}
+.custom-gradient2 {
+  background: linear-gradient(
+    180deg,
+    #4bdcd5 -27.08%,
+    #1eafca 36.46%,
+    #0a62cc 100%
+  );
+}
+.shadow-icon {
+  box-shadow: 0px 0px 20px 0px rgba(105, 185, 157, 0.58);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
